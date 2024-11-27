@@ -4,13 +4,13 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 # Complementos
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 # Routers
 from routes.archivos import router as archivos_router
 from routes.login import router as login_router
 from routes.imagenes import router as imagenes_router
 
-load_dotenv()
+# load_dotenv()
 
 app = FastAPI()
 
